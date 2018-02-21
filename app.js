@@ -29,4 +29,14 @@ $(document).ready(function()
           {
               $(this).attr("src", "images/Arcade_Game.jpg");
           });
+
+      $("#pixelArt").hover(
+          function()
+          {
+              $(this).attr("src", "images/PixelArtMaker_Gif.gif");
+          },
+          function()
+          {
+              $(this).attr("src", "images/PixelArtMaker_Image.jpg");
+          });
 });
