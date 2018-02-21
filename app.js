@@ -7,7 +7,7 @@ $(document).ready(function()
         },
         function()
         {
-            $(this).attr("src", "images/Neighborhood_Map_Image.jpg");
+            $(this).attr("src", "images/Neighborhood_Map_Image.JPG");
         });
 
       $("#matchGame").hover(
@@ -17,7 +17,7 @@ $(document).ready(function()
           },
           function()
           {
-              $(this).attr("src", "images/Memory_Game_Image.jpg");
+              $(this).attr("src", "images/Memory_Game_Image.JPG");
           });
 
       $("#arcadeGame").hover(
@@ -27,7 +27,7 @@ $(document).ready(function()
           },
           function()
           {
-              $(this).attr("src", "images/Arcade_Game.jpg");
+              $(this).attr("src", "images/Arcade_Game.JPG");
           });
 
       $("#pixelArt").hover(
@@ -37,6 +37,6 @@ $(document).ready(function()
           },
           function()
           {
-              $(this).attr("src", "images/PixelArtMaker_Image.jpg");
+              $(this).attr("src", "images/PixelArtMaker_Image.JPG");
           });
 });
