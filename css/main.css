@@ -1,0 +1,99 @@
+* {
+    font-family: "Raleway", sans-serif
+}
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured {
+  padding-left: 1%;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  color: #7d97ad;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.row {
+  width: 100%;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-width: 2px;
+  border-color: #7d97ad;
+}
+
+.title {
+  text-align: right;
+}
+
+.headshot {
+  height: 150px;
+  padding-top: 2.5%;
+  padding: 1%;
+}
+
+.ruler {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.featurerow {
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-xs-12 .col-xs-12 .col-sm-3 .col-lg-3 .col-md-3 .col-sm-9 .col-md-9 .col-lg-9 .col-md-12 .col-sm-6 .col-md-4 .col-lg-4 .col-sm-12 {
+  padding: .5%;
+}
+
+@media screen and (max-width: 768px) {
+.headshot {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.features {
+  padding-top: 5%;
+}
+
+}
