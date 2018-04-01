@@ -8,6 +8,20 @@
   margin-right: auto;
 }
 
+.header {
+  font-size: 20px;
+}
+
+.iconcolor {
+  color: blue;
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 .featured {
   padding-left: 1%;
 }
@@ -62,6 +76,8 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
+
 }
 
 .features {
@@ -72,6 +88,10 @@ hr {
 
 .col-xs-12 .col-xs-12 .col-sm-3 .col-lg-3 .col-md-3 .col-sm-9 .col-md-9 .col-lg-9 .col-md-12 .col-sm-6 .col-md-4 .col-lg-4 .col-sm-12 {
   padding: .5%;
+}
+
+.social{
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
